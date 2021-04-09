@@ -1,0 +1,1296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="displayLavel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="hookMoveWindowCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>402, 39</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="hookWmWndowposCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="childWindowSizeCheckBox.Text" xml:space="preserve">
+    <value>调整子窗口大小</value>
+  </data>
+  <data name="hookDirectXcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 127</value>
+  </data>
+  <data name="hookWmWndowposCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>505, 39</value>
+  </data>
+  <data name="hookWmSizeCheckBox.Text" xml:space="preserve">
+    <value>正确的WM_SIZE</value>
+  </data>
+  <data name="displayComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 43</value>
+  </data>
+  <data name="okButton.Text" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="hookGetWindowRectCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 31</value>
+  </data>
+  <data name="limitTaskbarCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="&gt;&gt;hookSetCursorPosCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;winAPIRadioButton.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;hookClipCursorCheckBox.Name" xml:space="preserve">
+    <value>hookClipCursorCheckBox</value>
+  </data>
+  <data name="hookWmSizeCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 39</value>
+  </data>
+  <data name="hookMessageCheckBox.Text" xml:space="preserve">
+    <value>通过挂钩窗口消息校正</value>
+  </data>
+  <data name="groupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;dwmRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="displayLavel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 35</value>
+  </data>
+  <data name="hookSetCursorPosCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 39</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hookScreenshotCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 62</value>
+  </data>
+  <data name="&gt;&gt;nameLavel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;hookWmSizeCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hookGetWindowRectCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 256</value>
+  </data>
+  <data name="&gt;&gt;hookGetCursorPosCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dirextXRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 39</value>
+  </data>
+  <data name="&gt;&gt;hookWmSizeCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="windowSizeCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;wow64RadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hookGetClientRectCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="windowSizeCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 584</value>
+  </data>
+  <data name="&gt;&gt;displayLavel.Name" xml:space="preserve">
+    <value>displayLavel</value>
+  </data>
+  <data name="hookSetWindowPosCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 127</value>
+  </data>
+  <data name="&gt;&gt;childWindowSizeCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dwmRadioButton.Name" xml:space="preserve">
+    <value>dwmRadioButton</value>
+  </data>
+  <data name="&gt;&gt;hookSetWindowPlacementCheckBox.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="dirextXRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="excludeTaskbarCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hookMessageCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>546, 398</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.Name" xml:space="preserve">
+    <value>cancelButton</value>
+  </data>
+  <data name="excludeTaskbarCheckBox.Text" xml:space="preserve">
+    <value>调整任务栏区域的位置</value>
+  </data>
+  <data name="hookGetWindowRectCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;displayComboBox.Name" xml:space="preserve">
+    <value>displayComboBox</value>
+  </data>
+  <data name="hookDirectXcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 39</value>
+  </data>
+  <data name="&gt;&gt;nameTextBox.Name" xml:space="preserve">
+    <value>nameTextBox</value>
+  </data>
+  <data name="hookSetWindowPosCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;hookDirectXcheckBox.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="hookSetWindowPlacementCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="nameLavel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 15, 7, 8</value>
+  </data>
+  <data name="&gt;&gt;okButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hookGetClientRectCheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;thumbnailCheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hookSetWindowPlacementCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>501, 39</value>
+  </data>
+  <data name="winAPIRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 62</value>
+  </data>
+  <data name="windowCenterCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="thumbnailCheckbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="hookClipCursorCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="hookGetCursorPosCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;displayComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dirextXRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="displayComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="&gt;&gt;nameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 398</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;winAPIRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 1054</value>
+  </data>
+  <data name="&gt;&gt;windowSizeCheckBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;filterComboBox.Name" xml:space="preserve">
+    <value>filterComboBox</value>
+  </data>
+  <data name="winAPIRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="hookMoveWindowCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;hookWmSizeCheckBox.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>14, 31</value>
+  </data>
+  <data name="filterComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="hookSetWindowPlacementCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 170</value>
+  </data>
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>23, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;dirextXRadioButton.Name" xml:space="preserve">
+    <value>dirextXRadioButton</value>
+  </data>
+  <data name="groupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="dirextXRadioButton.Text" xml:space="preserve">
+    <value>DirectX (缓慢)</value>
+  </data>
+  <data name="&gt;&gt;wow64RadioButton.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="childWindowSizeCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>607, 1054</value>
+  </data>
+  <data name="&gt;&gt;hookSetCursorPosCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="windowSizeCheckBox.Text" xml:space="preserve">
+    <value>调整窗口大小</value>
+  </data>
+  <data name="hookClipCursorCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="displayComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="okButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="dirextXRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="nameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="wow64RadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 62</value>
+  </data>
+  <data name="thumbnailCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 39</value>
+  </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 170</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dirextXRadioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cancelButton.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="&gt;&gt;windowCenterCheckBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="hookSetCursorPosCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;childWindowSizeCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="childWindowSizeCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="hookGetClientRectCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 323</value>
+  </data>
+  <data name="hookSetWindowPlacementCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hookScreenshotCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="hookClipCursorCheckBox.Text" xml:space="preserve">
+    <value>通过挂钩ClipCursorPos API进行校正</value>
+  </data>
+  <data name="displayLavel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;displayLavel.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="cancelButton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="nameLavel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 35</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="&gt;&gt;excludeTaskbarCheckBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="windowCenterCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 372</value>
+  </data>
+  <data name="hookSetWindowPlacementCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cancelButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 1320</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;hookSetCursorPosCheckBox.Name" xml:space="preserve">
+    <value>hookSetCursorPosCheckBox</value>
+  </data>
+  <data name="groupBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;dwmRadioButton.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;hookGetCursorPosCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="hookWmWndowposCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hookSetWindowPosCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="displayLavel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 266</value>
+  </data>
+  <data name="&gt;&gt;excludeTaskbarCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="nameLavel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;limitTaskbarCheckBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="hookGetWindowRectCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>456, 39</value>
+  </data>
+  <data name="&gt;&gt;dirextXRadioButton.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="nameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="childWindowSizeCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 39</value>
+  </data>
+  <data name="&gt;&gt;hookWmWndowposCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hookSetWindowPlacementCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 191</value>
+  </data>
+  <data name="groupBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;nameLavel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hookClipCursorCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dwmRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="wow64RadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 39</value>
+  </data>
+  <data name="groupBox4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 15, 7, 8</value>
+  </data>
+  <data name="hookGetCursorPosCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="hookSetCursorPosCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;childWindowSizeCheckBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="hookScreenshotCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 39</value>
+  </data>
+  <data name="cancelButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 80</value>
+  </data>
+  <data name="hookWmSizeCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 387</value>
+  </data>
+  <data name="hookSetCursorPosCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;okButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="winAPIRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hookSetWindowPosCheckBox.Text" xml:space="preserve">
+    <value>挂钩并禁用SetWindowPos API</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hookWmSizeCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="filterComboBox.Items1" xml:space="preserve">
+    <value>线性插值</value>
+  </data>
+  <data name="filterComboBox.Items2" xml:space="preserve">
+    <value>立方插值</value>
+  </data>
+  <data name="hookMoveWindowCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 62</value>
+  </data>
+  <data name="windowCenterCheckBox.Text" xml:space="preserve">
+    <value>将窗口居中</value>
+  </data>
+  <data name="&gt;&gt;winAPIRadioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hookMoveWindowCheckBox.Text" xml:space="preserve">
+    <value>挂钩并禁用MoveWindow API</value>
+  </data>
+  <data name="&gt;&gt;filterComboBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dirextXRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="&gt;&gt;filterComboBox.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="hookWmSizeCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;okButton.Name" xml:space="preserve">
+    <value>okButton</value>
+  </data>
+  <data name="okButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="hookMoveWindowCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;hookMessageCheckBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;hookWmWndowposCheckBox.Name" xml:space="preserve">
+    <value>hookWmWndowposCheckBox</value>
+  </data>
+  <data name="&gt;&gt;hookSetCursorPosCheckBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="winAPIRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 39</value>
+  </data>
+  <data name="&gt;&gt;hookGetClientRectCheckBox.Name" xml:space="preserve">
+    <value>hookGetClientRectCheckBox</value>
+  </data>
+  <data name="windowCenterCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 39</value>
+  </data>
+  <data name="hookGetCursorPosCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="limitTaskbarCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="windowCenterCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="groupBox5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 21, 7, 8</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 635</value>
+  </data>
+  <data name="thumbnailCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="windowSizeCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 243</value>
+  </data>
+  <data name="&gt;&gt;hookMessageCheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="filterComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 43</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hookMoveWindowCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hookGetClientRectCheckBox.Text" xml:space="preserve">
+    <value>挂钩GetClientRect API进行校正</value>
+  </data>
+  <data name="&gt;&gt;hookSetWindowPlacementCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;hookSetWindowPlacementCheckBox.Name" xml:space="preserve">
+    <value>hookSetWindowPlacementCheckBox</value>
+  </data>
+  <data name="hookWmSizeCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="hookClipCursorCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 256</value>
+  </data>
+  <data name="&gt;&gt;windowSizeCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hookWmWndowposCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;windowSizeCheckBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;limitTaskbarCheckBox.Name" xml:space="preserve">
+    <value>limitTaskbarCheckBox</value>
+  </data>
+  <data name="&gt;&gt;wow64RadioButton.Name" xml:space="preserve">
+    <value>wow64RadioButton</value>
+  </data>
+  <data name="&gt;&gt;hookGetCursorPosCheckBox.Name" xml:space="preserve">
+    <value>hookGetCursorPosCheckBox</value>
+  </data>
+  <data name="&gt;&gt;windowCenterCheckBox.Name" xml:space="preserve">
+    <value>windowCenterCheckBox</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hookGetCursorPosCheckBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>609, 49</value>
+  </data>
+  <data name="&gt;&gt;displayComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hookMoveWindowCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nameLavel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="excludeTaskbarCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;hookScreenshotCheckBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;hookWmSizeCheckBox.Name" xml:space="preserve">
+    <value>hookWmSizeCheckBox</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="hookSetCursorPosCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 127</value>
+  </data>
+  <data name="displayLavel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;excludeTaskbarCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="hookSetCursorPosCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;hookDirectXcheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>492, 42</value>
+  </data>
+  <data name="hookWmWndowposCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hookSetWindowPlacementCheckBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="hookSetWindowPlacementCheckBox.Text" xml:space="preserve">
+    <value>挂钩并禁用SetWindowPlacement API</value>
+  </data>
+  <data name="&gt;&gt;filterComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;windowSizeCheckBox.Name" xml:space="preserve">
+    <value>windowSizeCheckBox</value>
+  </data>
+  <data name="&gt;&gt;hookGetWindowRectCheckBox.Name" xml:space="preserve">
+    <value>hookGetWindowRectCheckBox</value>
+  </data>
+  <data name="wow64RadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="thumbnailCheckbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;displayLavel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hookGetWindowRectCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hookWmWndowposCheckBox.Text" xml:space="preserve">
+    <value>正确的WM_WINDOWPOSCHANGING</value>
+  </data>
+  <data name="groupBox6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 21, 7, 8</value>
+  </data>
+  <data name="filterComboBox.Items" xml:space="preserve">
+    <value>无插值</value>
+  </data>
+  <data name="&gt;&gt;hookScreenshotCheckBox.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="hookMessageCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;hookMoveWindowCheckBox.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="hookScreenshotCheckBox.Text" xml:space="preserve">
+    <value>通过挂钩屏幕截图进行修正</value>
+  </data>
+  <data name="&gt;&gt;okButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="hookGetClientRectCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;hookClipCursorCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hookSetWindowPosCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>416, 39</value>
+  </data>
+  <data name="childWindowSizeCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;hookScreenshotCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;limitTaskbarCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hookDirectXcheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="hookGetCursorPosCheckBox.Text" xml:space="preserve">
+    <value>通过挂钩GetCursorPos API进行校正</value>
+  </data>
+  <data name="dirextXRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 62</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="hookGetWindowRectCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>基本设置</value>
+  </data>
+  <data name="&gt;&gt;hookMessageCheckBox.Name" xml:space="preserve">
+    <value>hookMessageCheckBox</value>
+  </data>
+  <data name="nameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 106</value>
+  </data>
+  <data name="&gt;&gt;excludeTaskbarCheckBox.Name" xml:space="preserve">
+    <value>excludeTaskbarCheckBox</value>
+  </data>
+  <data name="excludeTaskbarCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="dwmRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 62</value>
+  </data>
+  <data name="filterComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="hookDirectXcheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hookGetCursorPosCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>476, 39</value>
+  </data>
+  <data name="&gt;&gt;hookClipCursorCheckBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;hookGetClientRectCheckBox.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="wow64RadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="okButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 80</value>
+  </data>
+  <data name="cancelButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="&gt;&gt;hookMoveWindowCheckBox.Name" xml:space="preserve">
+    <value>hookMoveWindowCheckBox</value>
+  </data>
+  <data name="&gt;&gt;hookGetClientRectCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>鼠标校正</value>
+  </data>
+  <data name="hookMessageCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nameLavel.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="excludeTaskbarCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 437</value>
+  </data>
+  <data name="limitTaskbarCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;displayComboBox.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="hookClipCursorCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="wow64RadioButton.Text" xml:space="preserve">
+    <value>WOW64</value>
+  </data>
+  <data name="&gt;&gt;thumbnailCheckbox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="thumbnailCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="thumbnailCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 178</value>
+  </data>
+  <data name="hookWmSizeCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 566</value>
+  </data>
+  <data name="&gt;&gt;hookMessageCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hookGetClientRectCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SettingForm</value>
+  </data>
+  <data name="&gt;&gt;dwmRadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="limitTaskbarCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 39</value>
+  </data>
+  <data name="hookMessageCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 39</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;hookWmWndowposCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hookScreenshotCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="dwmRadioButton.Text" xml:space="preserve">
+    <value>DWM (*推荐)</value>
+  </data>
+  <data name="hookGetClientRectCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>其他校正</value>
+  </data>
+  <data name="hookDirectXcheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;limitTaskbarCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="limitTaskbarCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="hookGetWindowRectCheckBox.Text" xml:space="preserve">
+    <value>挂钩GetWindowRect API进行校正</value>
+  </data>
+  <data name="wow64RadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;hookScreenshotCheckBox.Name" xml:space="preserve">
+    <value>hookScreenshotCheckBox</value>
+  </data>
+  <data name="windowCenterCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="nameLavel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;hookMoveWindowCheckBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;childWindowSizeCheckBox.Name" xml:space="preserve">
+    <value>childWindowSizeCheckBox</value>
+  </data>
+  <data name="&gt;&gt;nameLavel.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="nameLavel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 62</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>绘制模式</value>
+  </data>
+  <data name="winAPIRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="childWindowSizeCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="limitTaskbarCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 501</value>
+  </data>
+  <data name="hookMoveWindowCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;nameTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;hookWmWndowposCheckBox.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="hookClipCursorCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 39</value>
+  </data>
+  <data name="&gt;&gt;hookSetWindowPosCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="displayLavel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hookSetWindowPosCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="hookGetCursorPosCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hookGetClientRectCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 39</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>钩子方式</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="winAPIRadioButton.Text" xml:space="preserve">
+    <value>WinAPI</value>
+  </data>
+  <data name="dwmRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="childWindowSizeCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 307</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1204, 1478</value>
+  </data>
+  <data name="thumbnailCheckbox.Text" xml:space="preserve">
+    <value>显示缩略图</value>
+  </data>
+  <data name="hookGetWindowRectCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>609, 635</value>
+  </data>
+  <data name="groupBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="excludeTaskbarCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;hookDirectXcheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;thumbnailCheckbox.Name" xml:space="preserve">
+    <value>thumbnailCheckbox</value>
+  </data>
+  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="windowSizeCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hookGetCursorPosCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 191</value>
+  </data>
+  <data name="displayLavel.Text" xml:space="preserve">
+    <value>选择显示器</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>窗口校正</value>
+  </data>
+  <data name="hookMessageCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 62</value>
+  </data>
+  <data name="&gt;&gt;hookGetWindowRectCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;nameTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hookSetWindowPosCheckBox.Name" xml:space="preserve">
+    <value>hookSetWindowPosCheckBox</value>
+  </data>
+  <data name="&gt;&gt;windowCenterCheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="hookSetCursorPosCheckBox.Text" xml:space="preserve">
+    <value>通过挂钩SetCursorPos API进行校正</value>
+  </data>
+  <data name="hookDirectXcheckBox.Text" xml:space="preserve">
+    <value>通过挂钩DirectX进行修正</value>
+  </data>
+  <data name="hookDirectXcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="&gt;&gt;winAPIRadioButton.Name" xml:space="preserve">
+    <value>winAPIRadioButton</value>
+  </data>
+  <data name="nameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="windowSizeCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="displayComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 307</value>
+  </data>
+  <data name="hookWmWndowposCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 452</value>
+  </data>
+  <data name="windowCenterCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;hookDirectXcheckBox.Name" xml:space="preserve">
+    <value>hookDirectXcheckBox</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;windowCenterCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hookSetWindowPosCheckBox.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="dwmRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 39</value>
+  </data>
+  <data name="&gt;&gt;hookSetWindowPosCheckBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;nameLavel.Name" xml:space="preserve">
+    <value>nameLavel</value>
+  </data>
+  <data name="hookMessageCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="hookClipCursorCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="excludeTaskbarCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 39</value>
+  </data>
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 15, 7, 8</value>
+  </data>
+  <data name="windowSizeCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 39</value>
+  </data>
+  <data name="&gt;&gt;wow64RadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;displayLavel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="hookScreenshotCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="okButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 1320</value>
+  </data>
+  <data name="&gt;&gt;hookGetWindowRectCheckBox.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;thumbnailCheckbox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="hookSetWindowPosCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="limitTaskbarCheckBox.Text" xml:space="preserve">
+    <value>放大受任务栏限制</value>
+  </data>
+  <data name="hookScreenshotCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 10, 9, 10</value>
+  </data>
+  <data name="filterComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 191</value>
+  </data>
+  <data name="dwmRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+</root>

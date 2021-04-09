@@ -1,0 +1,9 @@
+LIBRARY	WinHelper
+
+EXPORTS
+	GetCommandLineEx
+	GetD3DDevice9PresentRVA
+	CreateEffect
+	CreateVertexBuffer
+	ReleaseEffect
+	DrawEffectVertex

@@ -1,0 +1,8 @@
+LIBRARY	PEFile
+
+EXPORTS
+	PeInit
+	PeFree
+	PeLoadFromFile
+	PeReleaseFile
+	PeGetProcRVA
